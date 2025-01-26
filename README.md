@@ -64,6 +64,13 @@ A modern and responsive weather application built using **React.js**, **Vite**, 
    - Condition icon
 3. Toggle dark mode by clicking the sun/moon icon in the header.
 
+## Live Demo
+
+Check out the live version of the app here:
+
+🔗 [Live Weather App](https://skycast-wheat.vercel.app/)
+
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request.

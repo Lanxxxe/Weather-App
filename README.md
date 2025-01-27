@@ -1,13 +1,12 @@
 # Weather App
 
-A modern and responsive weather application built using **React.js**, **Vite**, and **WeatherAPI**. This app provides current weather information, hourly forecasts, and weather conditions for your desired cities.
+A modern and responsive weather application built using **React.js**, **Vite**, and **WeatherAPI**. This app provides current weather information, and weather conditions for your desired cities.
 
 ## Features
 
 - **Search for Cities**: Look up current weather details for any city.
 - **Weather Details**:
   - Current temperature, humidity, and condition.
-  - Hourly forecasts with icons and temperature.
 - **Dynamic Icons**: Displays appropriate weather icons based on conditions.
 - **Dark Mode**: Toggle between light and dark modes.
 
@@ -28,7 +27,7 @@ A modern and responsive weather application built using **React.js**, **Vite**, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/Lanxxxe/Weather-App.git
    cd weather-app
    ```
 
@@ -44,7 +43,7 @@ A modern and responsive weather application built using **React.js**, **Vite**, 
    - Obtain your API key.
    - Create a `.env` file in the root of the project:
      ```env
-     VITE_WEATHER_API_KEY=your_api_key_here
+     VITE_API_KEY=your_api_key_here
      ```
 
 4. Start the development server:
@@ -64,6 +63,13 @@ A modern and responsive weather application built using **React.js**, **Vite**, 
    - Humidity
    - Condition icon
 3. Toggle dark mode by clicking the sun/moon icon in the header.
+
+## Live Demo
+
+Check out the live version of the app here:
+
+🔗 [Live Weather App](https://skycast-wheat.vercel.app/)
+
 
 ## Contributing
 

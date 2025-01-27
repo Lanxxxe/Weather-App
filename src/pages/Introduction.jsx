@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router';
 import cloudRainSun from '../assets/rain-cloud-sun.jpg'
 import { grid } from 'ldrs'
 
@@ -43,7 +44,7 @@ const Introduction = () => {
                     <i className='wi wi-horizon text-[#11FF00] font-bold text-5xl bg-slate-800 rounded-md p-3'></i> 
                     <p className='text-white font-bold text-4xl mt-6'>SkyCast</p>
                     <p className='text-slate-400 mt-2'>Weather App</p>
-                    <a href="/homepage" className='mt-12 font-bold text-sm rounded-full bg-green-500 shadow-2xl hover:bg-green-600 px-6 py-2'>Get started</a>
+                    <Link to="/homepage" className='mt-12 font-bold text-sm rounded-full bg-green-500 shadow-2xl hover:bg-green-600 px-6 py-2'>Get started</Link>
                 </div>
             </div>
         </div>

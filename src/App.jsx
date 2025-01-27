@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
 import { useEffect } from 'react';
-import Hompage from './pages/Homepage';
+import Homepage from './pages/Homepage';
 import Introduction from './pages/Introduction';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Introduction />}></Route>
-          <Route path='/homepage' element={<Hompage />}></Route>
+          <Route path='/homepage' element={<Homepage />}></Route>
         </Routes>
       </Router>
     </>
